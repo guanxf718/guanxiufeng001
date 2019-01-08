@@ -1,34 +1,45 @@
 <template>
-    <div>首页{{guanxiufeng}}</div>
+    <div class="wrapper">
+        <section>
+            <choice-shop></choice-shop>
+        </section>
+        <section></section>
+        <section></section>
+        <section></section>
+    </div>
 </template>
 
 <script>
 
 import { mapMutations, mapGetters } from 'vuex';
+import { ChoiceShop } from "@/components";
 
 export default {
     mounted() {
-        this['GUANXIUFENG']('aaa');
-        this.textLogin();
+
     },
     methods: {
-        ...mapMutations(['GUANXIUFENG']),
-        textLogin() {
-            let params = {
-                aaa: 'aaa'
-            }
-            this.$service.commonCall('toLogin', params, {
-                success(res) {
-                    console.log(res.data);
-                }, failMsg: "失败"
-            });
-        }
+        // textLogin() {
+        //     let params = {
+        //         aaa: 'aaa11'
+        //     }
+        //     this.$service.commonCall('toLogin', params, {
+        //         success(res) {
+        //             console.log(res.data);
+        //         }, failMsg: "失败"
+        //     });
+        // }
     },
     computed: {
-        ...mapGetters(['guanxiufeng']),
+
+    },
+    components: {
+        ChoiceShop
     }
 }
 </script>
 
-<style>
+<style lang="scss" scoped>
+
 </style>
+

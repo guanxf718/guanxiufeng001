@@ -23,6 +23,7 @@ html {
 
 body {
     margin: 0;
+    font-size: 28px;
 }
 
 
@@ -503,12 +504,22 @@ h3 {
 
 ul,
 li,
+div,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+section,
+input,
+button,
 ol,
 dt,
 dd,
 dl {
     padding: 0;
-    margin: 0
+    margin: 0;
 }
 
 ul,
