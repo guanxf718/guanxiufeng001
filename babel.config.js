@@ -8,5 +8,5 @@ module.exports = {
             "libraryDirectory": "lib",
             "camel2DashComponentName": false
         }],
-    ]
+    ],
 }

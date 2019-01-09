@@ -22,3 +22,12 @@
     -webkit-line-clamp: 3;
     -webkit-box-orient: vertical;
 }
+
+@mixin flex {
+    display: flex;
+    flex-wrap: nowrap;
+}
+
+@mixin flex-child {
+    flex-grow: 1;
+}
