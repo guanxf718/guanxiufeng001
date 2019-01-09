@@ -8,7 +8,7 @@ Vue.use(Vuex);
 
 let state = {
     userInfo: null,
-    guanxiufeng: 'hahahahaha'
+    takeOut: false
 };
 
 let storeState = store => {

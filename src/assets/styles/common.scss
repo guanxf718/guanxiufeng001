@@ -23,11 +23,59 @@
     -webkit-box-orient: vertical;
 }
 
-@mixin flex {
+@mixin flex-half($width) {
     display: flex;
     flex-wrap: nowrap;
+    &>li,
+    &>div,
+    &>section,
+    &>p {
+        flex-grow: 1;
+        width: $width;
+    }
 }
 
-@mixin flex-child {
-    flex-grow: 1;
+@mixin flex-center($justify, $align) {
+    display: flex;
+    justify-content: $justify;
+    align-items: $align;
+}
+
+@mixin float-half($width) {
+    &>li,
+    &>div,
+    &>section,
+    &>p {
+        float: left;
+        max-width: $width;
+    }
+    @include float-clear;
+}
+
+@mixin float-clear {
+    &::after {
+        display: block;
+        content: '';
+        clear: both;
+    }
+}
+
+@mixin standard-padding {
+    padding: $spacing-x;
+}
+
+@mixin standard-padding-t {
+    padding-top: $spacing-x;
+}
+
+@mixin standard-padding-r {
+    padding-right: $spacing-x;
+}
+
+@mixin standard-padding-b {
+    padding-bottom: $spacing-x;
+}
+
+@mixin standard-padding-l {
+    padding-let: $spacing-x;
 }

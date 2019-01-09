@@ -9,7 +9,13 @@ import theme from 'muse-ui/lib/theme'; //muse-ui主题
 import 'muse-ui/lib/styles/base.less';
 import 'muse-ui/lib/styles/theme.less';
 import 'material-icons/iconfont/material-icons.scss';
-import { BottomNav, Select, Icon } from 'muse-ui';
+import {
+    BottomNav,
+    Grid,
+    Icon,
+    Switch,
+    Carousel
+} from 'muse-ui';
 
 theme.add('orange', {
     primary: '#f9a825',
@@ -22,8 +28,10 @@ Vue.prototype.$service = service;
 
 theme.use('orange');
 Vue.use(BottomNav);
-Vue.use(Select);
+Vue.use(Grid);
 Vue.use(Icon);
+Vue.use(Switch);
+Vue.use(Carousel);
 
 Vue.config.productionTip = false;
 

@@ -1,2 +1,2 @@
-export const GUANXIUFENG = 'GUANXIUFENG';
+export const TAKEOUT = 'TAKEOUT';
 export const USERINFO = 'USERINFO';

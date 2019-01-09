@@ -1,11 +1,11 @@
 import {
-    GUANXIUFENG,
+    TAKEOUT,
     USERINFO
 } from './mutationsTypes'
 
 export default {
-    [GUANXIUFENG](state, v) {
-        state.guanxiufeng = v;
+    [TAKEOUT](state, v) {
+        state.takeOut = v;
     },
     [USERINFO](state, v) {
         state.userInfo = v;

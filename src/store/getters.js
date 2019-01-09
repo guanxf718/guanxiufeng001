@@ -1,4 +1,4 @@
 export default {
-    guanxiufeng: state => state.guanxiufeng,
-    userInfo: state => state.userInfo
+    userInfo: state => state.userInfo,
+    takeOut: state => state.takeOut,
 };
