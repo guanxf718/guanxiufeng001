@@ -1,18 +1,54 @@
+
 <template>
-    <section>
-        <mu-bottom-nav>
-            <mu-bottom-nav-item title="首页" icon="gesture" to="/home"></mu-bottom-nav-item>
-            <mu-bottom-nav-item title="订单" icon="style" to="/order"></mu-bottom-nav-item>
-            <mu-bottom-nav-item title="我的" icon="bubble_chart" to="/user"></mu-bottom-nav-item>
-        </mu-bottom-nav>
-    </section>
+    <mu-bottom-nav>
+        <mu-bottom-nav-item
+            v-for="el in tabberList"
+            :key="el.index"
+            :title="el.title"
+            :icon="el.icon"
+            :to="el.menuTag"
+        ></mu-bottom-nav-item>
+    </mu-bottom-nav>
 </template>
 
-<style lang="scss" scoped>
-    section{
-        position: fixed;
-        bottom: 0;
-        width: 100%;
-    }
-</style>
+<script>
+import { mapGetters } from 'vuex';
+import router from '@/router/config.js'
+export default {
+    data() {
+        return {
+            active: 0,
+            tabberList: []
+        }
+    },
+    mounted() {
+        this.routerUrl();
+    },
+    methods: {
+        routerUrl() {
+            let array = [];
+            // 从vuex中取选中页面
+            this.active = this.tabbarActive;
+            // 过滤路由主页面数据
+            this.tabberList = router.filter(el => el.meta && el.meta.tabbar);
+            // 过滤不必要的key
+            this.tabberList.forEach(el => {
+                for (const key in el) {
+                    if (el.hasOwnProperty(key)) {
+                        if (key == 'meta') {
+                            el[key].menuTag = `/${el[key].menuTag}`;
+                            array.push(el[key]);
+                        }
+                    }
+                }
+            });
+            this.tabberList = array;
+            console.log(this.tabberList);
+        }
+    },
+    computed: {
+        ...mapGetters(['tabbarActive']),
+    },
+}
+</script>
 
