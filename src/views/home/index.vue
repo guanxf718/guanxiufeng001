@@ -7,7 +7,7 @@
             <ad-carousel :inner-list="imgList"></ad-carousel>
         </section>
         <section class="product">
-            <product-queue></product-queue>
+            <!-- <product-queue></product-queue> -->
         </section>
         <section class="cart">
             <shop-cart></shop-cart>
@@ -73,7 +73,7 @@ export default {
     .carousel {
         @include flex-fixed(auto, $home-carousel);
     }
-    .product{
+    .product {
         @include flex-fixed(auto, $home-product);
     }
     .cart {

@@ -2,7 +2,7 @@
     <div class="content">
         <div class="left">
             <section>
-                <mu-icon value="place"></mu-icon>
+                <van-icon name="location-o" />
             </section>
             <section>
                 <h3>{{innerShop.name || '暂无门店'}}</h3>
@@ -10,7 +10,7 @@
             </section>
         </div>
         <div class="right">
-            <mu-switch v-model="docked" label="外卖"></mu-switch>
+            <van-switch v-model="checked" />
         </div>
     </div>
 </template>
@@ -21,7 +21,7 @@ import { mapMutations } from 'vuex';
 export default {
     data() {
         return {
-            docked: false
+            checked: false
         }
     },
     mounted() {
@@ -41,8 +41,8 @@ export default {
          * 外卖初始化
          */
         takeInit() {
-            this.docked = this.innerSwitch;
-            this['TAKEOUT'](this.docked);
+            this.checked = this.innerSwitch;
+            this['TAKEOUT'](this.checked);
         }
     },
     watch: {
@@ -62,7 +62,6 @@ export default {
         section {
             &:first-child {
                 @include flex-center(center, center);
-                @include standard-padding-r;
                 max-width: 60px;
             }
             p {

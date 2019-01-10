@@ -1,9 +1,9 @@
 <template>
-    <mu-carousel transition="slide">
-        <mu-carousel-item v-for="item in innerList" :key="item.index">
+    <van-swipe :autoplay="3000" indicator-color="white">
+        <van-swipe-item v-for="item in innerList" :key="item.index">
             <img :src="item">
-        </mu-carousel-item>
-    </mu-carousel>
+        </van-swipe-item>
+    </van-swipe>
 </template>
 
 <script>
@@ -17,7 +17,7 @@ export default {
 </script>
 
 <style lang="scss" scoped>
-.mu-carousel {
+.van-swipe {
     height: 260px;
     img {
         width: 100%;

@@ -3,8 +3,7 @@
         <section class="left">
             <section>
                 <p>
-                    <mu-icon value="shopping_cart"></mu-icon>
-                    <span>0</span>
+                    <van-icon name="cart-o" info="9"/>
                 </p>
             </section>
             <section>
@@ -12,7 +11,7 @@
             </section>
         </section>
         <section class="right">
-            <mu-button color="primary">去下单</mu-button>
+            <van-button type="primary">去下单</van-button>
         </section>
     </div>
 </template>
@@ -25,7 +24,7 @@ export default {
 
 <style lang="scss" scoped>
 .content {
-    $line-cart: $base-size + $spacing-x;
+    $line-cart: $base-size;
     $cart-border: 10px;
     $base: 30px;
     @include flex-half(auto);
@@ -41,14 +40,14 @@ export default {
                 p {
                     width: $line-cart;
                     height: $line-cart;
-                    line-height: $line-cart + ($cart-border * 2);
+                    line-height: $line-cart + ($cart-border * 4);
                     border-radius: $basics;
                     border: $cart-border solid $color-gray-e;
                     text-align: center;
                     background-color: $color-base;
                     position: relative;
                     margin-top: -$spacing-xm;
-                    .mu-icon {
+                    .van-icon {
                         font-size: $text-xxxl;
                         color: $color-white;
                     }
@@ -69,7 +68,7 @@ export default {
                 p {
                     height: $base-size;
                     line-height: $base-size;
-                    color: $color-base;
+                    color: $color-orange;
                     font-size: $text-xxl;
                 }
             }
@@ -78,11 +77,13 @@ export default {
     .right {
         min-width: $base-size * 2;
         max-width: $base-size * 2;
-        .mu-button {
+        .van-button {
             width: 100%;
             height: 100%;
             border-radius: 0;
             box-shadow: 0 0 0;
+            background-color: $color-base;
+            border: 0;
         }
     }
 }

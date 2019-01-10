@@ -9,10 +9,11 @@ const ProductQueue = () =>
 const ShopCart = () =>
     import ('./shopCart/index.vue');
 
+
 module.exports = {
     TabBar,
     ChoiceShop,
     AdCarousel,
     ProductQueue,
-    ShopCart
+    ShopCart,
 };

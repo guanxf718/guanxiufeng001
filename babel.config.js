@@ -4,9 +4,9 @@ module.exports = {
     ],
     plugins: [
         ["import", {
-            "libraryName": "muse-ui",
-            "libraryDirectory": "lib",
-            "camel2DashComponentName": false
-        }],
-    ],
+            libraryName: "vant",
+            libraryDirectory: "es",
+            style: name => `${name}/style/less`
+        }, 'vant']
+    ]
 }
