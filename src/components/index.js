@@ -8,6 +8,8 @@ const ProductQueue = () =>
     import ('./productQueue/index.vue');
 const ShopCart = () =>
     import ('./shopCart/index.vue');
+const TabNav = () =>
+    import ('./tabNav/index.vue');
 
 
 module.exports = {
@@ -16,4 +18,5 @@ module.exports = {
     AdCarousel,
     ProductQueue,
     ShopCart,
+    TabNav
 };
