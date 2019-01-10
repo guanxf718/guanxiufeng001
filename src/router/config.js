@@ -22,9 +22,11 @@ export default [
         path: '/home',
         name: 'home',
         meta: {
-            auth: true,
+            active: 0,
+            tabbar: true,
             title: '首页',
-            menuTag: 'home'
+            menuTag: 'home',
+            icon: 'shop-collect-o'
         },
         component: HOME
     },
@@ -33,9 +35,11 @@ export default [
         path: '/order',
         name: 'order',
         meta: {
-            auth: true,
+            active: 1,
+            tabbar: true,
             title: '订单',
-            menuTag: 'order'
+            menuTag: 'order',
+            icon: 'balance-list-o'
         },
         component: ORDER
     },
@@ -43,9 +47,11 @@ export default [
         path: '/user',
         name: 'user',
         meta: {
-            auth: true,
-            title: '我得',
-            menuTag: 'user'
+            active: 2,
+            tabbar: true,
+            title: '我的',
+            menuTag: 'user',
+            icon: 'user-o'
         },
         component: USER
     },
@@ -53,7 +59,6 @@ export default [
         path: '/login',
         name: 'login',
         meta: {
-            auth: true,
             title: '登录',
             menuTag: 'login'
         },

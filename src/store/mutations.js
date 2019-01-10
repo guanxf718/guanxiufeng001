@@ -1,6 +1,7 @@
 import {
     TAKEOUT,
-    USERINFO
+    USERINFO,
+    TABBARACTIVE
 } from './mutationsTypes'
 
 export default {
@@ -9,5 +10,8 @@ export default {
     },
     [USERINFO](state, v) {
         state.userInfo = v;
+    },
+    [TABBARACTIVE](state, v) {
+        state.tabbarActive = v;
     },
 }

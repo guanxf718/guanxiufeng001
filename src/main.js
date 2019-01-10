@@ -5,7 +5,7 @@ import store from './store'; //vuex
 import service from './service'; //项目接口
 import 'lib-flexible/flexible.js'; //rem
 import './worker'; //缓存
-import { Tabbar, TabbarItem, Switch, Icon, Swipe, SwipeItem, Button } from 'vant';
+import { Tabbar, TabbarItem, Switch, Icon, Swipe, SwipeItem, Button, SubmitBar } from 'vant';
 
 Vue.use(Tabbar)
     .use(TabbarItem)
@@ -14,6 +14,7 @@ Vue.use(Tabbar)
     .use(Swipe)
     .use(SwipeItem)
     .use(Button)
+    .use(SubmitBar);
 
 Vue.prototype.$service = service;
 

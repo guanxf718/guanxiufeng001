@@ -29,14 +29,7 @@ export default {
             },
             iTakeOut: true,
             imgList: ['images/carousel/img1.jpg', 'images/carousel/img2.jpg', 'images/carousel/img3.jpg'],
-            productList: {
-                teaWater: [
-                    {
-
-                    }
-                ],
-
-            }
+            productList: {}
         }
     },
     mounted() {

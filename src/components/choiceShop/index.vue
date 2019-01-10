@@ -2,7 +2,7 @@
     <div class="content">
         <div class="left">
             <section>
-                <van-icon name="location-o" />
+                <van-icon name="shop-collect-o" />
             </section>
             <section>
                 <h3>{{innerShop.name || '暂无门店'}}</h3>

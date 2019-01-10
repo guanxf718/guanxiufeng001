@@ -8,7 +8,8 @@ Vue.use(Vuex);
 
 let state = {
     userInfo: null,
-    takeOut: false
+    takeOut: false,
+    tabbarActive: 0,
 };
 
 let storeState = store => {
