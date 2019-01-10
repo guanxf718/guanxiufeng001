@@ -1,16 +1,16 @@
 <template>
     <div class="wrapper">
-        <section>
+        <section class="choice">
             <choice-shop :inner-shop="currentShop" :inner-switch="iTakeOut"></choice-shop>
         </section>
-        <section>
+        <section class="carousel">
             <ad-carousel :inner-list="imgList"></ad-carousel>
         </section>
-        <section>
+        <section class="product">
             <product-queue></product-queue>
         </section>
-        <section>
-            
+        <section class="cart">
+            <shop-cart></shop-cart>
         </section>
     </div>
 </template>
@@ -18,7 +18,7 @@
 <script>
 
 import { mapMutations, mapGetters } from 'vuex';
-import { ChoiceShop, AdCarousel, ProductQueue } from "@/components";
+import { ChoiceShop, AdCarousel, ProductQueue, ShopCart } from "@/components";
 
 export default {
     data() {
@@ -28,7 +28,15 @@ export default {
                 distance: '距离您60km'
             },
             iTakeOut: true,
-            imgList: ['images/carousel/img1.jpg', 'images/carousel/img2.jpg', 'images/carousel/img3.jpg']
+            imgList: ['images/carousel/img1.jpg', 'images/carousel/img2.jpg', 'images/carousel/img3.jpg'],
+            productList: {
+                teaWater: [
+                    {
+
+                    }
+                ],
+
+            }
         }
     },
     mounted() {
@@ -50,11 +58,27 @@ export default {
         ...mapGetters(['takeOut']),
     },
     components: {
-        ChoiceShop, AdCarousel, ProductQueue
+        ChoiceShop, AdCarousel, ProductQueue, ShopCart
     }
 }
 </script>
 
 <style lang="scss" scoped>
+.wrapper {
+    overflow: hidden;
+    @include flex-down;
+    .choice {
+        @include flex-fixed(auto, $home-choice);
+    }
+    .carousel {
+        @include flex-fixed(auto, $home-carousel);
+    }
+    .product{
+        @include flex-fixed(auto, $home-product);
+    }
+    .cart {
+        @include flex-fixed(auto, $home-cart);
+    }
+}
 </style>
 

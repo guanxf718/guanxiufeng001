@@ -56,7 +56,7 @@ export default {
 <style lang="scss" scoped>
 .content {
     @include standard-padding;
-    @include flex-half(50%);
+    @include flex-half($basics);
     div.left {
         @include flex-half(auto);
         section {

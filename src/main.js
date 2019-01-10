@@ -14,7 +14,8 @@ import {
     Grid,
     Icon,
     Switch,
-    Carousel
+    Carousel,
+    Button
 } from 'muse-ui';
 
 theme.add('orange', {
@@ -32,6 +33,7 @@ Vue.use(Grid);
 Vue.use(Icon);
 Vue.use(Switch);
 Vue.use(Carousel);
+Vue.use(Button);
 
 Vue.config.productionTip = false;
 

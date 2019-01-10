@@ -1,3 +1,10 @@
+$basics: 50%;
+$border: 1px;
+$base-size: 100px;
+$home-choice: 120px;
+$home-carousel: 260px;
+$home-product: 1004px;
+$home-cart: 240px;
 //单行省略号
 @mixin ellipsis {
     overflow: hidden;
@@ -35,10 +42,28 @@
     }
 }
 
+@mixin flex-down {
+    display: flex;
+    flex-direction: column;
+    &>div,
+    &>li,
+    &>section,
+    &>p {
+        flex-grow: 1;
+    }
+}
+
 @mixin flex-center($justify, $align) {
     display: flex;
     justify-content: $justify;
     align-items: $align;
+}
+
+@mixin flex-fixed($size-w, $size-h) {
+    min-height: $size-h;
+    max-height: $size-h;
+    min-width: $size-w;
+    min-width: $size-w;
 }
 
 @mixin float-half($width) {
@@ -55,7 +80,7 @@
 @mixin float-clear {
     &::after {
         display: block;
-        content: '';
+        content: "";
         clear: both;
     }
 }

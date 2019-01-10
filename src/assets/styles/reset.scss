@@ -4,8 +4,13 @@ i.mu-icon {
 
 .mu-bottom-nav {
     height: auto;
-    border-top: 1PX solid $color-gray-e;
+    border-top: $border solid $color-gray-e;
     a {
         padding: 20px 10px;
     }
+}
+
+.mu-button {
+    color: #ffffff;
+    font-size: 14PX;
 }
