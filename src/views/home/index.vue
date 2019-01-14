@@ -65,19 +65,19 @@ export default {
 
 <style lang="scss" scoped>
 .wrapper {
-    overflow: hidden;
     @include flex-down;
     .choice {
-        @include flex-fixed(auto, $home-choice);
+        max-height: $home-choice;
     }
     .carousel {
-        @include flex-fixed(auto, $home-carousel);
+        max-height: $home-carousel;
     }
-    .product{
-        @include flex-fixed(auto, $home-product);
+    .product {
+        overflow: hidden;
+        position: relative;
     }
     .cart {
-        @include flex-fixed(auto, $home-cart);
+        max-height: $home-cart;
     }
 }
 </style>

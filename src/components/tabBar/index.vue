@@ -1,6 +1,5 @@
-
 <template>
-    <mu-bottom-nav>
+    <mu-bottom-nav v-model="active">
         <mu-bottom-nav-item
             v-for="el in tabberList"
             :key="el.index"
@@ -43,7 +42,6 @@ export default {
                 }
             });
             this.tabberList = array;
-            console.log(this.tabberList);
         }
     },
     computed: {
@@ -51,4 +49,15 @@ export default {
     },
 }
 </script>
+
+<style lang="scss" scoped>
+.mu-bottom-nav {
+    @include fiexd(auto, 0);
+    height: auto;
+    // border-top: $border solid $color-gray-e;
+    a {
+        padding: $spacing-x $spacing-s;
+    }
+}
+</style>
 

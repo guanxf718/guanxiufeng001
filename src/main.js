@@ -15,8 +15,23 @@ import {
     Icon,
     Switch,
     Carousel,
-    Button
+    Button,
+    Tabs,
+    ExpansionPanel,
+    DateInput
 } from 'muse-ui';
+
+Vue.use(BottomNav)
+    .use(Grid)
+    .use(Icon)
+    .use(Switch)
+    .use(Carousel)
+    .use(Button)
+    .use(Tabs)
+    .use(ExpansionPanel)
+    .use(DateInput);
+Vue.prototype.$service = service;
+Vue.config.productionTip = false;
 
 theme.add('orange', {
     primary: '#f9a825',
@@ -24,18 +39,7 @@ theme.add('orange', {
     success: '#4caf50',
     warning: '#ffeb3b',
 }, 'light');
-
-Vue.prototype.$service = service;
-
 theme.use('orange');
-Vue.use(BottomNav);
-Vue.use(Grid);
-Vue.use(Icon);
-Vue.use(Switch);
-Vue.use(Carousel);
-Vue.use(Button);
-
-Vue.config.productionTip = false;
 
 new Vue({
     router,

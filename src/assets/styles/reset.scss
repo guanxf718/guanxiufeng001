@@ -2,15 +2,51 @@ i.mu-icon {
     color: $color-gray-d;
 }
 
-.mu-bottom-nav {
-    height: auto;
-    border-top: $border solid $color-gray-e;
-    a {
-        padding: 20px 10px;
+.mu-button {
+    color: $color-white;
+    font-size: 14px;
+}
+
+.mu-expansion-panel-header,
+.mu-expansion-panel-content {
+    padding: 0;
+}
+
+.mu-expansion-panel-header {
+    min-height: 40px;
+    .mu-icon-button {
+        height: 40px;
     }
 }
 
-.mu-button {
-    color: #ffffff;
-    font-size: 14PX;
+.mu-expansion-panel__expand .mu-expansion-panel-header {
+    min-height: 50px;
+}
+
+.mu-expansion-panel {
+    border-top-color: $color-gray-e;
+}
+
+.base-color-input {
+    .mu-input.has-label {
+        min-height: auto;
+        padding-bottom: 0;
+    }
+    .mu-text-field-input {
+        background-color: $color-base;
+        border: 0;
+        outline: none;
+        color: #ffffff;
+    }
+    .mu-input.has-label .mu-input-label {
+        color: #ffffff;
+    }
+}
+
+.mu-tabs-inverse {
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+}
+
+.mu-bottom-nav-shift-wrapper {
+    border-top: $border solid $color-gray-e;
 }

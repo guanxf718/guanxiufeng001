@@ -24,20 +24,7 @@ html {
 body {
     margin: 0;
     font-size: 28px;
-    line-height: 20px;
-}
-
-html,
-body,
-#app,
-.wrapper {
-    height: 100%;
-}
-
-::-webkit-scrollbar {
-    width: 0;
-    height: 0;
-    color: transparent;
+    background-color: $color-gray-e !important;
 }
 
 
@@ -539,7 +526,6 @@ dd,
 dl {
     padding: 0;
     margin: 0;
-    box-sizing: border-box;
 }
 
 ul,

@@ -13,3 +13,9 @@ export default {
     }
 }
 </script>
+
+<style lang="scss" scoped>
+#app {
+    line-height: 40px!important;
+}
+</style>

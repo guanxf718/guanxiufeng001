@@ -67,8 +67,7 @@ export default {
             }
             &:nth-child(2) {
                 p {
-                    height: $base-size;
-                    line-height: $base-size;
+                    padding: $spacing-xx 0;
                     color: $color-base;
                     font-size: $text-xxl;
                 }

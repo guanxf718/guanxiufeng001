@@ -1,10 +1,43 @@
+/* Text-level parameter
+     ========================================================================== */
+
+html,
+body,
+#app,
+.wrapper {
+    height: 100%;
+}
+
+::-webkit-scrollbar {
+    width: 0;
+    height: 0;
+    color: transparent;
+}
+
+
+/* Text-level parameter
+     ========================================================================== */
+
+//base
 $basics: 50%;
-$border: 1px;
+$border: 1PX;
 $base-size: 100px;
+$base-spacing: 20px;
+$base-radius: 12px;
+// home
 $home-choice: 120px;
 $home-carousel: 260px;
-$home-product: 1004px;
-$home-cart: 240px;
+$home-product: 1006px;
+$home-cart: 238px;
+// order
+$order-date: 200px;
+$order-list: 1284px;
+// tabbar
+$tabbar-height: 140px;
+
+/* Text-level util
+     ========================================================================== */
+
 //单行省略号
 @mixin ellipsis {
     overflow: hidden;
@@ -29,6 +62,10 @@ $home-cart: 240px;
     -webkit-line-clamp: 3;
     -webkit-box-orient: vertical;
 }
+
+
+/* Text-level flex
+     ========================================================================== */
 
 @mixin flex-half($width) {
     display: flex;
@@ -59,12 +96,9 @@ $home-cart: 240px;
     align-items: $align;
 }
 
-@mixin flex-fixed($size-w, $size-h) {
-    min-height: $size-h;
-    max-height: $size-h;
-    min-width: $size-w;
-    min-width: $size-w;
-}
+
+/* Text-level float
+     ========================================================================== */
 
 @mixin float-half($width) {
     &>li,
@@ -85,22 +119,77 @@ $home-cart: 240px;
     }
 }
 
+
+/* Text-level position
+     ========================================================================== */
+
+@mixin fiexd($top, $bottom) {
+    position: fixed;
+    bottom: $bottom;
+    top: $top;
+    width: 100%;
+    z-index: 999;
+}
+
+@mixin absolute($width, $height, $top, $right, $bottom, $left) {
+    position: absolute;
+    top: $top;
+    right: $right;
+    bottom: $bottom;
+    left: $left;
+    width: $width;
+    height: $height;
+}
+
+@mixin absolute-center($top, $right, $bottom, $left, $x, $y) {
+    position: absolute;
+    top: $top;
+    right: $right;
+    bottom: $bottom;
+    left: $left;
+    transform: translate($x, $y);
+    -webkit-transform: translate($x, $y);
+    -moz-transform: translate($x, $y);
+    -ms-transform: translate($x, $y);
+    -o-transform: translate($x, $y);
+}
+
+
+/* Text-level spacing
+     ========================================================================== */
+
 @mixin standard-padding {
-    padding: $spacing-x;
+    padding: $base-spacing;
 }
 
 @mixin standard-padding-t {
-    padding-top: $spacing-x;
+    padding-top: $base-spacing;
 }
 
 @mixin standard-padding-r {
-    padding-right: $spacing-x;
+    padding-right: $base-spacing;
 }
 
 @mixin standard-padding-b {
-    padding-bottom: $spacing-x;
+    padding-bottom: $base-spacing;
 }
 
 @mixin standard-padding-l {
-    padding-let: $spacing-x;
+    padding-let: $base-spacing;
+}
+
+@mixin standard-padding-lr {
+    padding: 0 $base-spacing;
+}
+
+
+/* Text-level alook
+     ========================================================================== */
+
+@mixin card($tr, $bl) {
+    border-radius: $tr $tr $bl $bl;
+    -webkit-border-radius: $tr $tr $bl $bl;
+    -moz-border-radius: $tr $tr $bl $bl;
+    -ms-border-radius: $tr $tr $bl $bl;
+    -o-border-radius: $tr $tr $bl $bl;
 }

@@ -1,0 +1,112 @@
+{
+    "data": [{
+        "orderNo": 10005233,
+        "userId": 88,
+        "shopId": 2,
+        "expressId": 0,
+        "orderType": "02",
+        "orderAmt": 602,
+        "orderDisAmt": 105,
+        "payAmt": 105,
+        "fullMinusAmt": 0,
+        "guestsCount": 1,
+        "paySsn": "SCT99011787201901111348221701",
+        "userMemo": "",
+        "mealCode": "",
+        "expressAmt": 0,
+        "expressState": "0",
+        "couponId": 0,
+        "couponAmt": 0,
+        "integralDeductionAmt": 0,
+        "integral": 0,
+        "discountType": "00",
+        "crtTm": "2019-01-11 13:48:19",
+        "payTm": "2019-01-11 13:48:19",
+        "finshTm": "2019-01-11 13:48:19",
+        "recUpdTm": "2019-01-11 13:48:22",
+        "cashierConfirmTm": "2019-01-11 13:48:19",
+        "deliverStartTm": "2019-01-11 13:48:19",
+        "commentTm": "1547185699000",
+        "payDeadlineTm": "2019-01-11 14:03:19",
+        "payType": "LETPAY",
+        "orderState": "01",
+        "orderComment": "",
+        "orderCancelReason": "",
+        "commentState": "0",
+        "commentLevel": "01",
+        "tmFuiouId": "99011787",
+        "termName": "",
+        "orderAddrId": 10003486,
+        "phone": "18049797882",
+        "mchntExpressCost": 900,
+        "orderAddressInfo": {
+            "id": 10003486,
+            "orderNo": 10005233,
+            "addressId": 523,
+            "contacterName": "官秀峰",
+            "phone": "18049797882",
+            "mark": "家",
+            "gitu": "121.54987",
+            "titu": "31.22684",
+            "doorNum": "11",
+            "addres": "上海市浦东新区民生路1199弄1号金融大厦1层"
+        },
+        "orderCourierInfo": {
+            "courier": "",
+            "courierMobile": ""
+        },
+        "shopInfo": {
+            "shopName": "上海富友科技园",
+            "shopAddress": "上海金藏路351号",
+            "shopGitu": "121.59985",
+            "shopTitu": "31.24624",
+            "autoOrder": "1",
+            "shopPhone": "1280"
+        },
+        "detailList": [{
+            "goodsId": 1188,
+            "goodsNumber": 1,
+            "goodsBasePrice": 200,
+            "goodsDisPrice": 2,
+            "goodsPrice": 4,
+            "specExtraPrice": 0,
+            "goodsName": "热销草莓",
+            "markPrint": "1",
+            "specList": [{
+                "specId": 1001,
+                "specDetailId": 1756,
+                "specName": "规格",
+                "detailExtraPrice": 1,
+                "specDetailDesc": "泰国"
+            }, {
+                "specId": 1002,
+                "specDetailId": 1758,
+                "specName": "加料",
+                "detailExtraPrice": 1,
+                "specDetailDesc": "五个果子装"
+            }]
+        }, {
+            "goodsId": 1187,
+            "goodsNumber": 1,
+            "goodsBasePrice": 300,
+            "goodsDisPrice": 1,
+            "goodsPrice": 1,
+            "specExtraPrice": 0,
+            "goodsName": "富友牛油果",
+            "markPrint": "1",
+            "specList": []
+        }, {
+            "goodsId": 1208,
+            "goodsNumber": 1,
+            "goodsBasePrice": 100,
+            "goodsDisPrice": 100,
+            "goodsPrice": 100,
+            "specExtraPrice": 0,
+            "goodsName": "全部门店2",
+            "markPrint": "1",
+            "specList": []
+        }]
+    }],
+    "resultCode": "000000",
+    "resultMsg": "成功"
+}

@@ -12,13 +12,218 @@
                 <li>jjaskdjaksjdaksdjaksdjk()()()()(asdasdasdasd</li>
                 <li>kkklkklkl.asdhjkajdkajskd.asdasdasd</li>
                 <li>柠檬水丫haha</li>
+                <li>草莓季节限定</li>
+                <li>牛油果系列</li>
+                <li>纯鲜榨果汁</li>
+                <li>国粹香</li>
+                <li>可可香浓</li>
+                <li>美味佳肴好吃呢</li>
+                <li>片片香香偏偏飘飘香asdasdsad123123kkkkkasdsd</li>
+                <li>jjaskdjaksjdaksdjaksdjk()()()()(asdasdasdasd</li>
+                <li>kkklkklkl.asdhjkajdkajskd.asdasdasd</li>
+                <li>柠檬水丫haha</li>
+                <li>草莓季节限定</li>
+                <li>牛油果系列</li>
+                <li>纯鲜榨果汁</li>
+                <li>国粹香</li>
+                <li>可可香浓</li>
+                <li>美味佳肴好吃呢</li>
+                <li>片片香香偏偏飘飘香asdasdsad123123kkkkkasdsd</li>
+                <li>jjaskdjaksjdaksdjaksdjk()()()()(asdasdasdasd</li>
+                <li>kkklkklkl.asdhjkajdkajskd.asdasdasd</li>
+                <li>柠檬水丫haha</li>
+                <li>草莓季节限定</li>
+                <li>牛油果系列</li>
+                <li>纯鲜榨果汁</li>
+                <li>国粹香</li>
+                <li>可可香浓</li>
+                <li>美味佳肴好吃呢</li>
+                <li>片片香香偏偏飘飘香asdasdsad123123kkkkkasdsd</li>
+                <li>jjaskdjaksjdaksdjaksdjk()()()()(asdasdasdasd</li>
+                <li>kkklkklkl.asdhjkajdkajskd.asdasdasd</li>
+                <li>111柠檬水丫haha</li>
             </ul>
         </div>
         <div class="right">
             <ul>
                 <li>
                     <section>
-                        <!-- <img src="" alt=""> -->
+                        <mu-icon value="image"></mu-icon>
+                    </section>
+                    <section>
+                        <h3>大白兔奶糖</h3>
+                        <h4>库存：999</h4>
+                        <p>
+                            ¥888
+                            <span>¥999</span>
+                        </p>
+                    </section>
+                    <section>
+                        <mu-icon value="image"></mu-icon>
+                    </section>
+                </li>
+                <li>
+                    <section>
+                        <mu-icon value="image"></mu-icon>
+                    </section>
+                    <section>
+                        <h3>大白兔奶糖</h3>
+                        <h4>库存：999</h4>
+                        <p>
+                            ¥888
+                            <span>¥999</span>
+                        </p>
+                    </section>
+                    <section>
+                        <mu-icon value="image"></mu-icon>
+                    </section>
+                </li>
+                <li>
+                    <section>
+                        <mu-icon value="image"></mu-icon>
+                    </section>
+                    <section>
+                        <h3>大白兔奶糖</h3>
+                        <h4>库存：999</h4>
+                        <p>
+                            ¥888
+                            <span>¥999</span>
+                        </p>
+                    </section>
+                    <section>
+                        <mu-icon value="image"></mu-icon>
+                    </section>
+                </li>
+                <li>
+                    <section>
+                        <mu-icon value="image"></mu-icon>
+                    </section>
+                    <section>
+                        <h3>大白兔奶糖</h3>
+                        <h4>库存：999</h4>
+                        <p>
+                            ¥888
+                            <span>¥999</span>
+                        </p>
+                    </section>
+                    <section>
+                        <mu-icon value="image"></mu-icon>
+                    </section>
+                </li>
+                <li>
+                    <section>
+                        <mu-icon value="image"></mu-icon>
+                    </section>
+                    <section>
+                        <h3>大白兔奶糖</h3>
+                        <h4>库存：999</h4>
+                        <p>
+                            ¥888
+                            <span>¥999</span>
+                        </p>
+                    </section>
+                    <section>
+                        <mu-icon value="image"></mu-icon>
+                    </section>
+                </li>
+                <li>
+                    <section>
+                        <mu-icon value="image"></mu-icon>
+                    </section>
+                    <section>
+                        <h3>大白兔奶糖</h3>
+                        <h4>库存：999</h4>
+                        <p>
+                            ¥888
+                            <span>¥999</span>
+                        </p>
+                    </section>
+                    <section>
+                        <mu-icon value="image"></mu-icon>
+                    </section>
+                </li>
+                <li>
+                    <section>
+                        <mu-icon value="image"></mu-icon>
+                    </section>
+                    <section>
+                        <h3>大白兔奶糖</h3>
+                        <h4>库存：999</h4>
+                        <p>
+                            ¥888
+                            <span>¥999</span>
+                        </p>
+                    </section>
+                    <section>
+                        <mu-icon value="image"></mu-icon>
+                    </section>
+                </li>
+                <li>
+                    <section>
+                        <mu-icon value="image"></mu-icon>
+                    </section>
+                    <section>
+                        <h3>大白兔奶糖</h3>
+                        <h4>库存：999</h4>
+                        <p>
+                            ¥888
+                            <span>¥999</span>
+                        </p>
+                    </section>
+                    <section>
+                        <mu-icon value="image"></mu-icon>
+                    </section>
+                </li>
+                <li>
+                    <section>
+                        <mu-icon value="image"></mu-icon>
+                    </section>
+                    <section>
+                        <h3>大白兔奶糖</h3>
+                        <h4>库存：999</h4>
+                        <p>
+                            ¥888
+                            <span>¥999</span>
+                        </p>
+                    </section>
+                    <section>
+                        <mu-icon value="image"></mu-icon>
+                    </section>
+                </li>
+                <li>
+                    <section>
+                        <mu-icon value="image"></mu-icon>
+                    </section>
+                    <section>
+                        <h3>大白兔奶糖</h3>
+                        <h4>库存：999</h4>
+                        <p>
+                            ¥888
+                            <span>¥999</span>
+                        </p>
+                    </section>
+                    <section>
+                        <mu-icon value="image"></mu-icon>
+                    </section>
+                </li>
+                <li>
+                    <section>
+                        <mu-icon value="image"></mu-icon>
+                    </section>
+                    <section>
+                        <h3>大白兔奶糖</h3>
+                        <h4>库存：999</h4>
+                        <p>
+                            ¥888
+                            <span>¥999</span>
+                        </p>
+                    </section>
+                    <section>
+                        <mu-icon value="image"></mu-icon>
+                    </section>
+                </li>
+                <li>
+                    <section>
                         <mu-icon value="image"></mu-icon>
                     </section>
                     <section>
@@ -46,15 +251,13 @@ export default {
 
 <style lang="scss" scoped>
 .content {
-    height: $home-product;
     @include flex-half(auto);
+    @include absolute(100%, 100%, 0, auto, auto, 0);
     & > div {
-        height: inherit;
         @include standard-padding;
         padding-bottom: 0;
+        overflow-y: scroll;
         ul {
-            height: inherit;
-            overflow-y: scroll;
             padding-bottom: $spacing-xm;
         }
         &.left {
@@ -76,13 +279,12 @@ export default {
                     & > section {
                         &:nth-child(1) {
                             @include flex-center(center, center);
-                            
                         }
                         &:nth-child(2) {
-                            h3{
+                            h3 {
                                 font-weight: bold;
                             }
-                            h4{
+                            h4 {
                                 color: $color-base;
                                 margin-bottom: $spacing-s;
                             }
