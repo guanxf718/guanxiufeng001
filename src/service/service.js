@@ -4,5 +4,8 @@ export default (axios, config) => {
         toLogin(data = {}) {
             return axios.get('data/login.json');
         },
+        orderList(data = {}) {
+            return axios.get('data/order.json');
+        }
     };
 };
